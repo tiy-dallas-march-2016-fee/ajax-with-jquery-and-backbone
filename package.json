@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/tiy-dallas-march-2016-fee/ajax-with-jquery-and-backbone#readme",
   "dependencies": {
+    "body-parser": "^1.15.1",
     "express": "^4.13.4"
   }
 }
