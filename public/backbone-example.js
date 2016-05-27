@@ -25,7 +25,7 @@
   buttonCollectionGet.addEventListener('click', function() {
     var animalCollection = new AnimalCollection();
 
-    console.log('before sync', animalCollection.toJSON());
+    console.log('before fetch', animalCollection.toJSON());
     animalCollection.on('sync', function() {
       console.log('after fetch', animalCollection.toJSON());
     });

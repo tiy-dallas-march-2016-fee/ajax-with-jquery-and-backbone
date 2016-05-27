@@ -65,7 +65,6 @@
       url: '/api/animal/' + animal.id,
       method: 'PUT',
       contentType: 'application/json',
-      dataType: 'json',
       data: JSON.stringify(animal)
     })
 
@@ -84,8 +83,7 @@
 
     var promise = $.ajax({
       url: '/api/animal/' + animal.id,
-      method: 'DELETE',
-      contentType: 'application/json',
+      method: 'DELETE'
     })
 
     promise.done(function(res) {
